@@ -43,7 +43,8 @@ Function inside another function. The inner function has access to the outer fun
 
 4. Describe the four rules of the 'this' keyword.
 
-Global/Window Binding - is a global scope and uses the window object. Occurs when use of 'this' to invoke the function. New Binding - occurs in constructor functions when new objects are created.
+Global/Window Binding - is a global scope and uses the window object. Occurs when use of 'this' to invoke the function. 
+New Binding - occurs in constructor functions when new objects are created.
 Implicit Binding - occurs when the function is invoked by dot notation.
 Explicit Binding - occurs when a function uses .call(), .apply(), or .bind()
 
